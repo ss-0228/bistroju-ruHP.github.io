@@ -1,0 +1,117 @@
+li{
+  color: white;
+  list-style: none;
+  float: left;
+  padding: 30px 20px;
+}
+
+.header-logo{
+  color: white;
+ float: left;
+ padding: 20px 40px;
+ font-family: "Meiryo UI", sans-serif;
+ font-size: 40px;
+}
+
+.header{
+  background-color: #252a3f;
+  height: 90px;
+}
+
+.main{
+  height: 600px;
+}
+
+.footer{
+  background-color: #252a3f;
+  height: 400px;
+}
+
+.contents{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.text{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  
+  font-size: 20px;
+  font-family: "Lucida Grande", sans-serif;
+  margin: 20px 10px;
+}
+
+.concept{
+  margin: 10px;
+}
+
+h3{
+  padding:20px;
+  color: #dee7ec;
+  font-size: 20px;
+}
+
+
+
+.p1{
+  float: center;
+  word-break: normal;
+  width: 600px;
+  margin-left: auto;
+}
+
+.wrapper{
+  float: left;
+}
+
+.p2{
+  color: #dee7ec;
+  float: left;
+  margin: 10px 80px;
+  
+}
+
+.section-title{
+  border-bottom:2px solid #dee7ec;
+}
+
+.img1{
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.img2{
+  height: 250px;
+  float: right;
+  
+}
+
+.p3 {
+float: right;
+color: white;
+}
+
+.instagram{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.instagram:hover{
+  opacity:1;
+}
